@@ -104,7 +104,7 @@ website_entry.grid(column=1, row=1, columnspan=2, sticky=tk.W)
 website_entry.focus()
 
 username_entry = tk.Entry(width=57, bg=ENTRY_COLOR)
-username_entry.insert(0, "kylewong@gmail.com")
+username_entry.insert(0, "test_email@gmail.com")
 username_entry.grid(column=1, row=2, columnspan=2, sticky=tk.W)
 
 password_entry = tk.Entry(width=44, bg=ENTRY_COLOR)
